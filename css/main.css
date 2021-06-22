@@ -1,0 +1,70 @@
+:root {
+	--font-title: 'Montserrat', sans-serif;
+	--font-paragraph: 'Questrial', sans-serif;
+	--primary-color: #ff6f98;
+	--secundary-color: #ffffff;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+* {
+	font-size: 1.4rem;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/* text */
+
+.title--primary {
+	font-size: 2rem;
+	font-family: var(--font-title);
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.font--primary {
+	color: var(--primary-color);
+}
+
+p, li, button {
+	font-size: 1.2rem;
+	font-family: var(--font-paragraph);
+	margin: 0px;
+}
+
+/* end text */
+
+.btn {	
+	width: auto;
+	display: block;
+	cursor: pointer;
+	border: none;
+	background: none;
+	padding: 10px 20px;		
+}
+
+.btn--primary {	
+	background-color: var(--primary-color);
+	margin: 0 auto;
+	color: var(--secundary-color);		
+}
+
+.btn--secundary {			
+	background-color: var(--secundary-color);	
+	margin: 0 auto;
+	color: var(--primary-color)
+}
+
+.btn--icon {
+	padding: 0;
+}
+
+.btn--icon > img {
+	width: 20px;
+}

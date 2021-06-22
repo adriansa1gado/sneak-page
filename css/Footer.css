@@ -1,0 +1,21 @@
+footer > p{
+    color: #c5c5c5;
+    text-align: center;
+}
+
+.social-media {
+    width: 160px;
+    padding-left: 0;
+    margin: 20px auto;
+    display: grid;    
+    grid-template-columns: repeat(5, 1fr);            
+    list-style: none;
+}
+
+.social-media > li{
+    justify-self: center;
+}
+
+.social-media > li > img{
+    height: 18px;
+}

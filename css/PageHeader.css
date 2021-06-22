@@ -1,0 +1,18 @@
+.page-header {    
+    height: calc(100vh - 75px);
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: var(--secundary-color);
+    background-color: var(--primary-color);    
+}
+
+.page-header > :first-child {
+    margin-bottom: 25px;    
+}
+
+.page-header > :last-child {
+    margin-top: 25px;
+}
