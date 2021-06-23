@@ -1,10 +1,12 @@
 const addFolder = (itemGallery) => folder.push(itemGallery);
 
-const updateNavbarClass = (navbarItem) => {
-	for (let i = 0; i < navbarItems.length; i++) {
-		navbarItems[i].classList.remove('btn--primary');
+const seeGalleryMenu = (e) => {
+	if (e.target.parentElement.dataset.gallery === 'row') {
+		galleryMsonry.classList.add('gallery-masonry--row');
+		return;
+	} else {
+		galleryMsonry.classList.remove('gallery-masonry--row');
 	}
-	navbarItem.classList.add('btn--primary');
 };
 
 // filtra segun el area elegida

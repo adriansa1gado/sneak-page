@@ -7,22 +7,25 @@
 			name="viewport"
 			content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0; user-scalable=no"
 		/>
-		<title>Sneak Page | Home</title>		
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Questrial&display=swap" rel="stylesheet"> 
+		<title>Sneak Page | Home</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Questrial&display=swap"
+			rel="stylesheet"
+		/>
 		<link rel="stylesheet" href="./css/main.css" />
-		<link rel="stylesheet" href="./css/Header.css">
-		<link rel="stylesheet" href="./css/Navbar.css">
-		<link rel="stylesheet" href="./css/PageHeader.css">
-		<link rel="stylesheet" href="./css/Gallery.css">
-		<link rel="stylesheet" href="./css/Footer.css">		
+		<link rel="stylesheet" href="./css/Header.css" />
+		<link rel="stylesheet" href="./css/Navbar.css" />
+		<link rel="stylesheet" href="./css/PageHeader.css" />
+		<link rel="stylesheet" href="./css/Gallery.css" />
+		<link rel="stylesheet" href="./css/Footer.css" />
 	</head>
 	<body>
 		<!-- contenido header -->
 		<header class="main-header">
 			<a class="brand" href="">
-				<img class="brand__logo" src="./img/brand.png" alt="Branding logo"/>
+				<img class="brand__logo" src="./img/brand.png" alt="Branding logo" />
 			</a>
 			<nav class="navbar">
 				<ul class="navbar-list">
@@ -32,11 +35,11 @@
 					<li class="navbar__item btn">Photography</li>
 					<li class="navbar__item btn">App</li>
 					<button class="navbar__item btn">
-						<img src="./img/icons/search.svg" alt="search something new">
+						<img src="./img/icons/search.svg" alt="search something new" />
 					</button>
 				</ul>
-				<button class="btn btn--icon">					
-					<img src="./img/icons/bar.svg" alt="display menu">
+				<button class="btn btn--icon">
+					<img src="./img/icons/bar.svg" alt="display menu" />
 				</button>
 			</nav>
 		</header>
@@ -52,20 +55,31 @@
 			<!-- seccion picture galery -->
 			<section class="gallery">
 				<div class="gallery__menu">
-					<button class="btn btn--icon"><img src="./img/icons/gallery-grid.svg" alt="choose watch like grid gallery"></button>
-					<button class="btn btn--icon"><img src="./img/icons/gallery-stack.svg" alt="choose watch like row gallery" /></button>
+					<button data-gallery="grid" class="gallery__menu-item btn btn--icon">
+						<img
+							src="./img/icons/gallery-grid.svg"
+							alt="choose watch like grid gallery"
+						/>
+					</button>
+					<button data-gallery="row" class="gallery__menu-item btn btn--icon">
+						<img
+							src="./img/icons/gallery-stack.svg"
+							alt="choose watch like row gallery"
+						/>
+					</button>
 				</div>
 				<nav class="navbar">
 					<ul>
 						<li class="navbar__item btn btn--primary" data-area="all">All</li>
 						<li class="navbar__item btn" data-area="branding">Branding</li>
 						<li class="navbar__item btn" data-area="web">Web</li>
-						<li class="navbar__item btn" data-area="photography">Photography</li>
+						<li class="navbar__item btn" data-area="photography">
+							Photography
+						</li>
 						<li class="navbar__item btn" data-area="app">App</li>
 					</ul>
 				</nav>
-				<div id="gallery" class="gallery-masonry">					
-				</div>				
+				<div id="gallery" class="gallery-masonry"></div>
 				<button id="show-more" class="btn btn--primary">show me more</button>
 			</section>
 		</main>
@@ -77,25 +91,41 @@
 			</p>
 			<ul class="social-media">
 				<li>
-					<img src="./img/icons/social-media/facebook.svg" alt="icon from facebook" />
+					<img
+						src="./img/icons/social-media/facebook.svg"
+						alt="icon from facebook"
+					/>
 				</li>
 				<li>
-					<img src="./img/icons/social-media/twitter.svg" alt="icon from twitter">
+					<img
+						src="./img/icons/social-media/twitter.svg"
+						alt="icon from twitter"
+					/>
 				</li>
 				<li>
-					<img src="./img/icons/social-media/website.svg" alt="icon from website">
+					<img
+						src="./img/icons/social-media/website.svg"
+						alt="icon from website"
+					/>
 				</li>
 				<li>
-					<img src="./img/icons/social-media/google-plus.svg" alt="icon from google +">
+					<img
+						src="./img/icons/social-media/google-plus.svg"
+						alt="icon from google +"
+					/>
 				</li>
 				<li>
-					<img src="./img/icons/social-media/youtube.svg" alt="icon from you tube">
+					<img
+						src="./img/icons/social-media/youtube.svg"
+						alt="icon from you tube"
+					/>
 				</li>
 			</ul>
-		</footer>		
-		
+		</footer>
+
 		<script src="./js/variables.js"></script>
 		<script src="./js/fetchdata.js"></script>
+		<script src="js/navbar.js"></script>
 		<script src="./js/gallery.js"></script>
 		<script src="./js/events.js"></script>
 	</body>
