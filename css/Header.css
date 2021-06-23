@@ -1,15 +1,16 @@
-.main-header {    
-    min-height: 75px;
-    padding: 0 5%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;    
+.main-header {
+	min-height: 75px;
+	padding: 0 5%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .brand {
-    padding: 1px 0;
+	padding: 1px 0;
 }
 
 .brand__logo {
-    width: 160px;
+	margin-top: 5px;
+	width: 160px;
 }

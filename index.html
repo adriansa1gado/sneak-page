@@ -29,16 +29,18 @@
 			</a>
 			<nav class="navbar">
 				<ul class="navbar-list">
-					<li class="navbar__item btn btn--primary">All</li>
-					<li class="navbar__item btn">Branding</li>
-					<li class="navbar__item btn">Web</li>
-					<li class="navbar__item btn">Photography</li>
-					<li class="navbar__item btn">App</li>
+					<li class="navbar__item navbar btn btn--primary" data-area="all">
+						All
+					</li>
+					<li class="navbar__item btn" data-area="branding">Branding</li>
+					<li class="navbar__item btn" data-area="web">Web</li>
+					<li class="navbar__item btn" data-area="photography">Photography</li>
+					<li class="navbar__item btn" data-area="app">App</li>
 					<button class="navbar__item btn">
 						<img src="./img/icons/search.svg" alt="search something new" />
 					</button>
 				</ul>
-				<button class="btn btn--icon">
+				<button id="navbar" class="btn btn--icon">
 					<img src="./img/icons/bar.svg" alt="display menu" />
 				</button>
 			</nav>
