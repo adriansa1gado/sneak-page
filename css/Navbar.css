@@ -10,6 +10,7 @@
 	display: none;
 	position: fixed;
 	display: block;
+	top: 75px;
 	left: -1000px;
 	box-shadow: 0 0 2px rgb(32, 32, 32);
 	transition: 0.3s;
