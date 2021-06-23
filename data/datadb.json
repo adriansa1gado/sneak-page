@@ -1,0 +1,212 @@
+{
+    "portafolio" : {
+        "page-1" : [
+            {
+                "area" : "web",
+                "nameProyect" : "Website de Panamericana",
+                "pictureUrl" : "https://source.unsplash.com/500x1000/?web,buy"
+            },
+            {
+                "area" : "branding",
+                "nameProyect" : "Branding de una panaderia",
+                "pictureUrl" : "https://source.unsplash.com/400x900/?branding,cake"
+            },
+            {
+                "area" : "web",
+                "nameProyect" : "Pagina web de Zthielles",
+                "pictureUrl" : "https://source.unsplash.com/500x1000/?web,restaurant"
+            },
+            {
+                "area" : "app",
+                "nameProyect" : "Lista de reservas de Burger King",
+                "pictureUrl" : "https://source.unsplash.com/700x1000/?app,hamburguer"
+            },
+            {
+                "area" : "photography",
+                "nameProyect" : "Fotografias de modelaje en medellin",
+                "pictureUrl" : "https://source.unsplash.com/600x1000/?model,picture"
+            },
+            {
+                "area" : "web",
+                "nameProyect" : "Pagina web de rappi",
+                "pictureUrl" : "https://source.unsplash.com/300x600/?delivery,web"
+            },
+            {
+                "area" : "web",
+                "nameProyect" : "Pagina de la universidad de los andes",
+                "pictureUrl" : "https://source.unsplash.com/400x1000/?college,book"
+            },
+            {
+                "area" : "photography",
+                "nameProyect" : "Fotografias del dia del orgullo",
+                "pictureUrl" : "https://source.unsplash.com/800x1000/?pride,month"
+            },
+            {
+                "area" : "photography",
+                "nameProyect" : "Fotografias de nuestros clientes",
+                "pictureUrl" : "https://source.unsplash.com/800x850/?customers,web"
+            },
+            {
+                "area" : "app",
+                "nameProyect" : "nuestra App",
+                "pictureUrl" : "https://source.unsplash.com/200x500/?website,app"
+            }
+        ],
+        "page-2" : [
+            {
+                "area" : "branding",
+                "nameProyect" : "Branding de una neuva marca de leche",
+                "pictureUrl" : "https://source.unsplash.com/500x1000/?milk,food"
+            },
+            {
+                "area" : "branding",
+                "nameProyect" : "Branding de un e-comerce",
+                "pictureUrl" : "https://source.unsplash.com/400x900/?shirt,clothes"
+            },
+            {
+                "area" : "web",
+                "nameProyect" : "Pagina web de un e-comerce",
+                "pictureUrl" : "https://source.unsplash.com/500x1000/?clothes,dress"
+            },
+            {
+                "area" : "branding",
+                "nameProyect" : "Branding de la nueva pelicula waya",
+                "pictureUrl" : "https://source.unsplash.com/700x1000/?disney,movie"
+            },
+            {
+                "area" : "photography",
+                "nameProyect" : "Fotografias del set del UCM",
+                "pictureUrl" : "https://source.unsplash.com/600x1000/?marvel,disney"
+            },
+            {
+                "area" : "branding",
+                "nameProyect" : "REnovacion de marca de un club de musica",
+                "pictureUrl" : "https://source.unsplash.com/300x600/?club,music"
+            },
+            {
+                "area" : "branding",
+                "nameProyect" : "Branding universidad Sergio Arboleda",
+                "pictureUrl" : "https://source.unsplash.com/400x1000/?college,branding"
+            },
+            {
+                "area" : "app",
+                "nameProyect" : "App de monitoreo de contagiados",
+                "pictureUrl" : "https://source.unsplash.com/800x1000/?covid,app"
+            },
+            {
+                "area" : "app",
+                "nameProyect" : "App de simulacion de credito",
+                "pictureUrl" : "https://source.unsplash.com/800x850/?credit,app"
+            },
+            {
+                "area" : "photography",
+                "nameProyect" : "Fotografias del festival Cuña del Mar",
+                "pictureUrl" : "https://source.unsplash.com/200x500/?music,pop"
+            }
+        ],
+        "page-3" : [
+            {
+                "area" : "app",
+                "nameProyect" : "Aplicacion de rastreo de peliculas ilegales",
+                "pictureUrl" : "https://source.unsplash.com/800x1000/?movie,follow"
+            },
+            {
+                "area" : "app",
+                "nameProyect" : "Aplicacion de un sistema de cursos",
+                "pictureUrl" : "https://source.unsplash.com/200x500/?courses,courses"
+            },
+            {
+                "area" : "web",
+                "nameProyect" : "Aplicacion web de imagenes",
+                "pictureUrl" : "https://source.unsplash.com/700x1000/?pictures,app"
+            },
+            {
+                "area" : "app",
+                "nameProyect" : "Aplicacion web de un sistema de vuelos",
+                "pictureUrl" : "https://source.unsplash.com/600x1000/?airlines,flies"
+            },
+            {
+                "area" : "photography",
+                "nameProyect" : "Fotografias de verano",
+                "pictureUrl" : "https://source.unsplash.com/300x1000/?summer,summer"
+            },
+            {
+                "area" : "app",
+                "nameProyect" : "App de streamer",
+                "pictureUrl" : "https://source.unsplash.com/300x600/?series,stream"
+            },
+            {
+                "area" : "photography",
+                "nameProyect" : "Fotografias de invierno",
+                "pictureUrl" : "https://source.unsplash.com/700x1000/?winter,nature"
+            },
+            {
+                "area" : "branding",
+                "nameProyect" : "Branding de coca cola",
+                "pictureUrl" : "https://source.unsplash.com/200x500/?cocacola,drink"
+            },
+            {
+                "area" : "branding",
+                "nameProyect" : "Marca de cafe Tostao",
+                "pictureUrl" : "https://source.unsplash.com/200x550/?coffee,store"
+            },
+            {
+                "area" : "app",
+                "nameProyect" : "Aplicacion de rastreo de tarjetas de credito",
+                "pictureUrl" : "https://source.unsplash.com/200x500/?card,credit"
+            }
+        ],
+        "page-4" : [
+            {
+                "area" : "photography",
+                "nameProyect" : "Fotografias de fiestas",
+                "pictureUrl" : "https://source.unsplash.com/800x1000/?party,party"
+            },
+            {
+                "area" : "branding",
+                "nameProyect" : "Branding de negocio de eventos",
+                "pictureUrl" : "https://source.unsplash.com/400x900/?events,party"
+            },
+            {
+                "area" : "web",
+                "nameProyect" : "Pagina web de estudio de musica",
+                "pictureUrl" : "https://source.unsplash.com/800x1000/?music,compositers"
+            },
+            {
+                "area" : "app",
+                "nameProyect" : "App de un menu de hamburguesas",
+                "pictureUrl" : "https://source.unsplash.com/300x1000/?hamburguer,eat"
+            },
+            {
+                "area" : "photography",
+                "nameProyect" : "Fotografias de centros comerciales",
+                "pictureUrl" : "https://source.unsplash.com/500x1000/?mall,picture"
+            },
+            {
+                "area" : "web",
+                "nameProyect" : "Pagina web de un e-comerce",
+                "pictureUrl" : "https://source.unsplash.com/700x600/?delivery,web"
+            },
+            {
+                "area" : "app",
+                "nameProyect" : "App que predice riesgos financieros",
+                "pictureUrl" : "https://source.unsplash.com/800x1000/?finances,money"
+            },
+            {
+                "area" : "brading",
+                "nameProyect" : "Celebramos el dia del orgullo",
+                "pictureUrl" : "https://source.unsplash.com/300x1000/?pride,branding"
+            },
+            {
+                "area" : "app",
+                "nameProyect" : "Aplicacion de ventas",
+                "pictureUrl" : "https://source.unsplash.com/800x850/?sell,app"
+            },
+            {
+                "area" : "app",
+                "nameProyect" : "Aplicacion de informe de insumos",
+                "pictureUrl" : "https://source.unsplash.com/800x500/?data,app"
+            }
+        ]
+    }
+}
