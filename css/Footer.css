@@ -1,21 +1,22 @@
-footer > p{
-    color: #c5c5c5;
-    text-align: center;
+footer > p {
+	color: #c5c5c5;
+	text-align: center;
+	margin-top: 15px;
 }
 
 .social-media {
-    width: 160px;
-    padding-left: 0;
-    margin: 20px auto;
-    display: grid;    
-    grid-template-columns: repeat(5, 1fr);            
-    list-style: none;
+	width: 160px;
+	padding-left: 0;
+	margin: 20px auto;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	list-style: none;
 }
 
-.social-media > li{
-    justify-self: center;
+.social-media > li {
+	justify-self: center;
 }
 
-.social-media > li > img{
-    height: 18px;
+.social-media > li > img {
+	height: 18px;
 }
