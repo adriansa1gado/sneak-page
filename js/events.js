@@ -1,0 +1,1 @@
+showMore.addEventListener('click', showMoreData);
