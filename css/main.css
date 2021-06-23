@@ -28,11 +28,21 @@ body {
 	letter-spacing: 3px;
 }
 
+.title--secundary {
+	font-size: 1.1rem;
+	font-family: var(--font-title);
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
 .font--primary {
 	color: var(--primary-color);
 }
 
-p, li, button {
+p,
+li,
+button,
+img {
 	font-size: 1.2rem;
 	font-family: var(--font-paragraph);
 	margin: 0px;
@@ -40,25 +50,25 @@ p, li, button {
 
 /* end text */
 
-.btn {	
+.btn {
 	width: auto;
 	display: block;
 	cursor: pointer;
 	border: none;
 	background: none;
-	padding: 10px 20px;		
+	padding: 10px 20px;
 }
 
-.btn--primary {	
+.btn--primary {
 	background-color: var(--primary-color);
 	margin: 0 auto;
-	color: var(--secundary-color);		
+	color: var(--secundary-color);
 }
 
-.btn--secundary {			
-	background-color: var(--secundary-color);	
+.btn--secundary {
+	background-color: var(--secundary-color);
 	margin: 0 auto;
-	color: var(--primary-color)
+	color: var(--primary-color);
 }
 
 .btn--enabled {
@@ -71,4 +81,10 @@ p, li, button {
 
 .btn--icon > img {
 	width: 20px;
+}
+
+@media screen and (min-width: 480px) {
+	.title--secundary {
+		font-size: 1.8rem;
+	}
 }

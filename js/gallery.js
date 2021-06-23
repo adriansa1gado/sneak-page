@@ -40,7 +40,11 @@ const printGallery = (data, addtoFolder = true) => {
 	data.map((elemento) => {
 		const element = document.createElement('figure');
 		element.classList.add('item');
-		element.innerHTML = `<img loading="lazy" src="${elemento.pictureUrl}" alt="imagen de ${elemento.area}">`;
+		element.innerHTML = `<img loading="lazy" src="${elemento.pictureUrl}" alt="imagen de ${elemento.area}">
+        <div class="gallery__item-details">
+            <h3 class="title--secundary">${elemento.area}</h3>
+            <p>${elemento.nameProyect}</p>
+        </div>`;
 		galleryMsonry.appendChild(element);
 
 		addtoFolder ? addFolder(elemento) : '';
